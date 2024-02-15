@@ -40,7 +40,7 @@
   background-color: transparent; /* Fondo transparente */
   border: none; /* Sin borde */
   justify-content: center; /* Centra el contenido horizontalmente */
-  color: rgb(161, 225, 199); /* Color del texto */
+  color: rgb(202, 198, 115); /* Color del texto */
 }
 
 .navBardrop2 {
@@ -49,13 +49,13 @@
 
 /* Estilos para el enlace del menú al pasar el mouse */
 .menu-link:hover {
-  color: aquamarine; /* Cambia el color del texto a blanco al pasar el mouse */
+  color:  rgb(202, 246, 194); /* Cambia el color del texto a blanco al pasar el mouse */
   
 }
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item.active .nav-link:hover {
-    color: aquamarine; /* Color del texto activo y al pasar el mouse */
+    color: yellow; /* Color del texto activo y al pasar el mouse */
 }
 
 
@@ -90,7 +90,7 @@
   left: 50%; /* Coloca el botón en la mitad izquierda del contenedor */
   transform: translate(-50%, -50%); /* Centra el botón tanto horizontal como verticalmente */
   background-color: transparent; /* Fondo transparente */
-  border: 2px rgba(0, 255, 255, 0.389) solid;
+  border: 2px rgb(202, 198, 115) solid;
   margin-top: 20px; /* Ajusta este valor según la distancia deseada */
 }
 
@@ -98,7 +98,7 @@
 
 /* Estilos para el botón de menú hamburguesa */
 .navbar-toggler .navbar-toggler-icon {
-  background-color: rgba(0, 255, 255, 0.47);
+  background-color: rgb(202, 198, 115);
   border-radius: 2px; /* Ajusta el radio de borde */
 }
 

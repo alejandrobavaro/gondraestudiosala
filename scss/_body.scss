@@ -9,23 +9,13 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Familia de fuentes */
   }
 
-  /* Estilos para el fondo negro en pantallas pequeñas */
-  @media screen and (max-width: 578px) {
-    body {
-      background-image: url(../img/00-fondos/fondo5a.jpg);  /* Elimina la imagen de fondo */
-      background-repeat: no-repeat; /* No repetir la imagen de fondo */
-      background-position: center; /* Posición de la imagen de fondo */
-      background-size: cover; /* Ajusta la imagen al tamaño del body */
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Familia de fuentes */
-    }
-  }
 
 
 
 /* Estilos para los párrafos */
 p {
   color: rgb(241, 225, 192); /* Color de texto */
-  font-size: medium; /* Tamaño de fuente */
+
   text-align: justify; /* Alineación del texto */
 }
 
@@ -84,12 +74,12 @@ ol {
 a {
   /* Enlace sin visitar */
   &:link {
-    color: rgb(161, 225, 199); /* Color de texto */
+    color: rgb(202, 198, 115); /* Color de texto */
     text-decoration: none; /* Sin subrayado */
   }
   /* Enlace visitado */
   &:visited {
-    color: rgba(161, 225, 199, 0.541); /* Color de texto */
+    color: rgba(202, 198, 115, 0.574); /* Color de texto */
     text-decoration: none; /* Sin subrayado */
   }
 }
